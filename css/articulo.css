@@ -1,0 +1,264 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* reset para rems - 65.5 = 10px de 16px */
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-size: 18px;
+    overflow: auto;
+    font-family: "Prompt-Medium";
+    min-height: 100%;
+}
+
+/*GLOBALES*/
+
+/*UTILIDADES*/
+
+/*HEADER*/
+.header {
+    background-color: #5390d9;
+    font-family: "Prompt-Medium";
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container {
+    width: 100%;
+    max-width: 1800px;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagen-logo {
+    width: 30rem;
+    height: auto;
+    float: left;
+    line-height: 7rem;
+    margin-right: 1rem;
+}
+
+.container .btn-menu {
+    float: left;
+    line-height: 70px;
+}
+
+.container .btn-menu label {
+    color: rgb(250, 250, 250);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.container .menu {
+    float: right;
+    line-height: 70px;
+}
+
+/* Configuración general de los links en el header */
+.container .menu a {
+    display: inline-block;
+    padding: 15px 22px;
+    line-height: normal;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3 ease;
+    border-bottom: all 0.3 ease;
+    border-bottom: 2px solid transparent;
+    font-size: 17px;
+}
+
+/* Pone una línea de bajo de los links */
+.container .menu a:hover {
+    border-bottom: 2px solid white;
+    padding: 5px 22px;
+}
+
+/* Aquí se cierra el header */
+
+/*Menù lateral*/
+#btn-menu {
+    display: none;
+}
+
+.container-menu {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    font-family: "Prompt-Medium";
+    font-size: 18px;
+}
+
+#btn-menu:checked~.container-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont-menu {
+    width: 100%;
+    max-width: 250px;
+    background: #0077b6;
+    height: 100vh;
+    position: fixed;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+
+#btn-menu:checked~.container-menu .cont-menu {
+    transform: translateX(0%);
+}
+
+.cont-menu nav {
+    transform: translateY(15%);
+}
+
+/* Lo que se hace como un cuadrado al rededor */
+.cont-menu nav a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+.cont-menu nav a:hover {
+    border-left: 5px solid white;
+    background: #03045e;
+}
+
+.cont-menu label {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*Fin de Menù lateral*/
+
+/* Estructura general del articulo */
+
+.main-articulo {
+    display: flex;
+    justify-content: center;
+    margin: 8rem;
+    flex-direction: column;
+    align-items: center;
+    width: 90rem;
+}
+
+/* Imagen y texto la parte principal */
+
+
+.titulo-articulo{
+    /* Mover aquí por si acaso */
+    margin: -50px -100px 100px -20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    width: calc(100% - 18px);
+}
+.titulo-articulo h1{
+    font-family: "Prompt-Bold";
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #caf0f8;
+    display: inline;
+    line-height: 1.5;
+}
+/* elementos dentro del articulo */
+.elementos-articulo{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.elementos-articulo a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+.elementos-articulo h5{
+    margin: 0 2rem 0 0; 
+    font-size: 15px;
+}
+.main-articulo{
+    display: flex;
+    align-items: flex-start;
+}
+/* Inicio al cuerpo del articulo */
+.cuerpo-articulo{
+    font-family: "Prompt-Light";
+    line-height: 1.5;
+}
+.cuerpo-articulo p{
+    font-size: 22px;
+}
+
+/* Inicio del footer */
+
+footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .main-content {
+    height: 100%;
+    margin: 10rem 0;
+    color: white;
+  
+  }
+  
+  .footer-main {
+  
+    display: grid;
+    grid-column-gap: 80px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 15px 0px;
+  }
+  
+  .footer-main li {
+    margin-top: 5px;
+    font-family: "Prompt-Light";
+  }
+  
+  footer {
+    background-color: #023e8a;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    flex-shrink: 0;
+    bottom: 0;
+  
+  }
+  
+  /* La verdad no sé para qué dejé este logo img. Si funciona no lo toques */
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+

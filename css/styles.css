@@ -1,0 +1,289 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* reset para rems - 65.5 = 10px de 16px */
+  height: 100%;
+}
+
+
+
+body {
+  background-color: #CAF0F8;
+  font-size: 18px;
+  overflow: auto;
+  font-family: "Prompt-Medium";
+  min-height: 100%;
+}
+a{
+  text-decoration: none;
+  color: black; 
+}
+
+.links {
+  text-decoration: none;
+}
+
+/*GLOBALES*/
+
+/*UTILIDADES*/
+
+/*HEADER*/
+.header {
+  background-color: #5390d9;
+  font-family: "Prompt-Medium";
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container {
+  width: 100%;
+  max-width: 1800px;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imagen-logo {
+  width: 30rem;
+  height: auto;
+  float: left;
+  line-height: 7rem;
+  margin-right: 1rem;
+}
+
+.container .btn-menu {
+  float: left;
+  line-height: 70px;
+}
+
+.container .btn-menu label {
+  color: rgb(250, 250, 250);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.container .menu {
+  float: right;
+  line-height: 70px;
+}
+
+/* Configuración general de los links en el header */
+.container .menu a {
+  display: inline-block;
+  padding: 15px 22px;
+  line-height: normal;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3 ease;
+  border-bottom: all 0.3 ease;
+  border-bottom: 2px solid transparent;
+  font-size: 17px;
+}
+
+/* Pone una línea de bajo de los links */
+.container .menu a:hover {
+  border-bottom: 2px solid white;
+  padding: 5px 22px;
+}
+
+/* Aquí se cierra el header */
+
+/*Menù lateral*/
+#btn-menu {
+  display: none;
+}
+
+.container-menu {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+  font-family: "Prompt-Medium";
+  font-size: 18px;
+}
+
+#btn-menu:checked~.container-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cont-menu {
+  width: 100%;
+  max-width: 250px;
+  background: #0077b6;
+  height: 100vh;
+  position: fixed;
+  transition: all 500ms ease;
+  transform: translateX(-100%);
+}
+
+#btn-menu:checked~.container-menu .cont-menu {
+  transform: translateX(0%);
+}
+
+.cont-menu nav {
+  transform: translateY(15%);
+}
+
+/* Lo que se hace como un cuadrado al rededor */
+.cont-menu nav a {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  border-left: 5px solid transparent;
+  transition: all 400ms ease;
+}
+
+.cont-menu nav a:hover {
+  border-left: 5px solid white;
+  background: #03045e;
+}
+
+.cont-menu label {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/*Fin de Menù lateral*/
+
+/* Parte de la izquierda de la pagina 4 cuadrados */
+
+.contenedor-cuadrado {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  float: left;
+  min-height: 100%;
+
+}
+
+.contenedor-cuadrado img {
+  padding-top: 2rem;
+
+}
+
+/* Contenido principal de la pagina */
+
+.main-contenedor {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+
+  /* Espacio del cuadrado en blanco */
+  min-height: calc(100vh - 10rem);
+  /* NO TOCAR LO QUE ESTÁ AQUÍ ARRIBA O LOS MATO */
+}
+
+.main-cuadrado {
+  -webkit-box-align: center;
+  -webkit-box-flex: 1;
+  height: 100%;
+  background-color: white;
+  padding: 2rem;
+  margin-top: 4rem;
+  margin-right: 6rem;
+  border-radius: 20px;
+}
+
+.contenedor-imagen {
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  top: 0
+}
+
+.contenedor-titulo {
+  display: flex;
+  border-bottom: 4px solid black;
+  justify-content: center;
+  font-family: 'Prompt-Bold';
+  
+}
+.contenedor-titulo a{
+  text-decoration: none;
+}
+
+.contenedor-titulo h2 {
+  margin: 1.5rem 0;
+}
+
+.contenedor-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-info h5 {
+  margin: 2.5rem 0 0 0;
+}
+
+
+
+/* Inicio del footer */
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-content {
+  height: 100%;
+  margin: 10rem 0;
+  color: white;
+
+}
+
+.footer-main {
+
+  display: grid;
+  grid-column-gap: 80px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 15px 0px;
+}
+
+.footer-main li {
+  margin-top: 5px;
+  font-family: "Prompt-Light";
+}
+
+footer {
+  background-color: #023e8a;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  flex-shrink: 0;
+  bottom: 0;
+
+}
+
+/* La verdad no sé para qué dejé este logo img. Si funciona no lo toques */
+.logo img {
+  max-width: 100%;
+}
+
+.logo {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}

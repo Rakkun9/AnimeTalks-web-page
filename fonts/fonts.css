@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Prompt-Medium';
+    src: url('Prompt-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Prompt-Thin';
+    src: url('Prompt-Thin.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Prompt-Light';
+    src: url('Prompt-Light.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Prompt-Bold';
+    src: url('Prompt-Bold.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Prompt-Black';
+    src: url('Prompt-Black.ttf');
+    font-weight: normal;
+    font-size: normal;
+}

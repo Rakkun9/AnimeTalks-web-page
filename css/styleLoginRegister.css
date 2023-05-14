@@ -1,0 +1,132 @@
+/* Variables globales */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* reset para rems - 65.5 = 10px de 16px */
+}
+
+body {
+    background-color: #5390d9;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    overflow: hidden;
+    font-family: 'Prompt-Medium';
+}
+
+img {
+    max-width: 100%;
+    position: initial;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Estructura principal junto con el cuadrado */
+.principal {
+    padding: 20px 0px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5390d9;
+    min-height: 100vh;
+
+}
+
+.contenedor {
+
+    font-family: 'Prompt-Medium';
+    background-color: #023E8A;
+    border-radius: 3rem;
+    max-width: 539px;
+    width: 100%;
+    min-height: 420px;
+    max-height: 550px;
+
+}
+
+/* Lo que se encuentra dentro del cuadrado */
+.contenedor h1 {
+    padding-top: 3rem;
+    margin: 0; 
+
+}
+
+.contenedor h1:last-of-type{
+    padding-top: 0.5rem;  
+}
+
+
+.alerta{
+    color: red;
+}
+
+.elemento {
+    padding-top: 5rem;
+    text-align: left;
+    padding-left: 15%;
+
+}
+
+.input-cuadrados {
+    border: none;
+    background-color: #023E8A;
+    color: #e5eff1;
+    border-bottom: 4px solid #fff;
+    padding-bottom: 6px;
+    width: 80%;
+}
+
+
+/* Esto sirve solo para cambiar el color y la fuente de los placeHolder */
+
+::-webkit-input-placeholder {
+    color: #CAF0F8;
+    font-family: 'Prompt-Light';
+}
+
+/* Para otros navegadores en caso de que no sean algunos */
+
+::placeholder {
+    color: #CAF0F8;
+    font-family: 'Prompt-Light';
+}
+
+/* Parte del botón */
+
+.boton {
+    padding: 2rem;
+}
+
+.boton :hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.boton-iniciar {
+    border: none;
+    background-color: #03045E;
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Prompt-Bold';
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+}
+
+.link-login {
+    bottom: 10px;
+}
+
+/* El link */
+
+.contenedor a {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor a:hover {
+    color: #CAF0F8;
+}

@@ -1,0 +1,206 @@
+/* Variables globales */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* reset para rems - 65.5 = 10px de 16px */
+    height: 100vh; 
+    /* Ese Height me dio más dolores de cabeza que soluciones */
+}
+
+body {
+    background-color: #5390d9;
+    color: white;
+    font-size: 18px;
+    overflow: auto;
+    font-family: 'Prompt-Medium';
+
+}
+
+img {
+    max-width: 100%;
+    position: initial;
+}
+
+header {
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+footer {
+    background-color: #023E8A;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    flex-shrink: 0;
+}
+
+
+
+/* Fin de las variables globales */
+
+/* Contenedor. Lo que va dentro del cuadro azul */
+.principal {
+    padding: 20px 0px;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #5390d9;
+    min-height: 100%;
+    align-items: center;
+}
+
+.contenedor {
+    background-color: #023E8A;
+    border-radius: 3rem;
+    max-width: 80rem;
+    width: 100%;
+    min-height: 40rem;
+    margin: 0 10rem;
+}
+
+.contenedor h2 {
+    padding: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+/* Estilo a lo que está dentro del cuadrado como los input va individual */
+.forma1 {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.forma1 input {
+    margin-top: 2.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.formularios {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.forma2 {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forma2 input {
+    margin-top: 2.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.forma3 {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forma3 input {
+    margin-top: 2.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.input-cuadrados {
+    border: none;
+    background-color: #023E8A;
+    color: #e5eff1;
+    border-bottom: 4px solid #fff;
+    padding-bottom: 6px;
+    width: 80%;
+}
+
+/* Esto sirve solo para cambiar el color y la fuente de los placeHolder */
+
+::-webkit-input-placeholder {
+    color: #CAF0F8;
+    font-family: 'Prompt-Light';
+}
+
+/* Para otros navegadores en caso de que no sean algunos */
+
+::placeholder {
+    color: #CAF0F8;
+    font-family: 'Prompt-Light';
+}
+
+/* Toda la parte de los botones  */
+
+.boton :hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.boton-iniciar {
+
+    border: none;
+    background-color: #03045E;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Prompt-Bold';
+    padding: 1.5rem 4rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.boton input {
+    font-size: 1.8rem;
+    margin-top: 3.5rem;
+}
+
+/* Inicio del footer */
+
+footer a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+.main-content {
+    position: relative;
+    min-height: 100%;
+    margin: 10rem 0; 
+}
+
+.footer-main {
+
+    display: grid;
+    grid-column-gap: 80px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 15px 0px;
+}
+.footer-main li{
+    margin-top: 5px;
+    font-family: 'Prompt-Light'
+}
+
+/* La verdad no sé para qué dejé este logo img. Si funciona no lo toques */
+.logo img {
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
