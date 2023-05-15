@@ -7,7 +7,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
 if(!empty($_POST["cambiar"])){
     if(empty($_POST["password"] or empty($_POST["passwordAntes"])) or empty($_POST["passwordAgain"])){
         echo "! Uno de los campos está vacío !"; 
-        //En caso de que alguno de los campos este vacioo se imprime un mensaje
+        //En caso de que alguno de los campos este vacioo se imprime un mensaje en caso de que el campo esté vacio
     } else {
         $password = $_POST ["password"]; 
         $passwordAntes = $_POST ["passwordAntes"]; 
