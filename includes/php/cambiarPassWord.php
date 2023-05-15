@@ -14,6 +14,7 @@ if(!empty($_POST["cambiar"])){
         $sql = mysqli_query($conn, "UPDATE usuarios SET pass = '$password' WHERE id_usuario = '$id_usuario'");
 
     }
+    echo "hola a todos"; 
 }
 mysqli_close($conn); 
 
