@@ -6,7 +6,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
 if (!empty($_POST["cambiarUsuario"])) {
     if (empty($_POST["usuario"])) {
         echo "! Uno de los campos está vacio !";
-        //En caso de que alguno de los campos este vacio se imprime un mensaje
+        //En caso de que alguno de los campos este vacio se imprime un mensaje y cositas pasan
     } else {
         $usuario = $_POST["usuario"];
         $sql = mysqli_query($conn, "UPDATE usuarios SET usuario = '$usuario' WHERE id_usuario = '$id_usuario'");
