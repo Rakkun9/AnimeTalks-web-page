@@ -25,13 +25,13 @@ $id_usuario = $_SESSION['id_del_usuario'];
 <body>
 
     <header class="header">
-    <img src="img/AnimeTalksRecortado.png" alt="AnimeTalks" class="imagen-logo">
+        <img src="img/AnimeTalksRecortado.png" alt="AnimeTalks" class="imagen-logo">
         <div class="container">
             <div class="btn-menu">
                 <label for="btn-menu" class="icon-menu"></label>
             </div>
             <div class="logo">
-                
+
             </div>
             <nav class="menu">
                 <a href="#">Inicio</a>
@@ -53,7 +53,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
                 <a href="#">Galería</a>
                 <a href="#">Sobre Nosotros</a>
                 <a href="#">Contacto</a>
-                
+
                 <?php
 
                 //Esto es para que cambie en funcion si se ha logeado o no
@@ -64,7 +64,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
                     <a href="#">Favoritos</a>
                     <a href="/AnimeTalks/adminUsuario.php">Admin</a>
                     <a href="#">Cerrar sesión</a>
-                <?php
+                    <?php
                 } else {
                     ?>
                     <a href="/AnimeTalks/LogIn.php">Iniciar Sesion</a>
@@ -82,147 +82,169 @@ $id_usuario = $_SESSION['id_del_usuario'];
     <!-- Parte de la izquierda de la pagina -->
     <div class="contenedor-cuadrado">
         <div class="contenedor-enlaces">
-            <a href="index.php"><img src="/AnimeTalks/img/imgIndex/Shonenn.png"
-                        alt="Logo AnimeTalks"></a>
+            <a href="index.php"><img src="/AnimeTalks/img/imgIndex/Shonenn.png" alt="Logo AnimeTalks"></a>
         </div>
         <div class="contenedor-enlaces">
-            <a href="index.php"><img src="/AnimeTalks/img/imgIndex/Seinenn.png"
-                        alt="Logo AnimeTalks"></a>
+            <a href="index.php"><img src="/AnimeTalks/img/imgIndex/Seinenn.png" alt="Logo AnimeTalks"></a>
         </div>
         <div class="contenedor-enlaces">
-            <a href="index.php"><img src="/AnimeTalks/img/imgIndex/Shoujoo.png"
-                        alt="Logo AnimeTalks"></a>
+            <a href="index.php"><img src="/AnimeTalks/img/imgIndex/Shoujoo.png" alt="Logo AnimeTalks"></a>
         </div>
         <div class="contenedor-enlaces">
-            <a href="index.php"><img src="/AnimeTalks/img/imgIndex/Joiseii.png"
-                        alt="Logo AnimeTalks"></a>
+            <a href="index.php"><img src="/AnimeTalks/img/imgIndex/Joiseii.png" alt="Logo AnimeTalks"></a>
         </div>
+        <div class="contenedor-enlaces">
+            <a href="index.php"><img src="/AnimeTalks/img/imgIndex/Vida_Escolar.png" alt="Logo AnimeTalks"></a>
+        </div>
+        <div class="contenedor-enlaces">
+            <a href="index.php"><img src="/AnimeTalks/img/imgIndex/Drama.png" alt="Logo AnimeTalks"></a>
+        </div>
+
     </div>
 
     <main class="main-contenedor">
-            <div class="main-cuadrado">
-                <a href="/AnimeTalks/Articulo.php">
-                    <div class="contenedor-imagen">
-                        <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
-                    </div>
-                    <div class="contenedor-texto">
-                        <div class="contenedor-titulo">
-                            <h2> La otra versión de ti mismo </h2>
-                        </div>
-                        <div class="contenedor-info">
-                            <h5>Autor del artículo: Admin</h5>
-                            <h5>Anime: TalTalTalTalTalTal</h5>
-                            <h5>Fecha de creación: 07/05/2023</h5>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
         <div class="main-cuadrado">
-            <div class="contenedor-imagen">
-                <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
-            </div>
-            <div class="contenedor-texto">
-                <div class="contenedor-titulo">
-                    <h2> La otra versión de ti mismo </h2>
+            <a href="/AnimeTalks/Articulo.php">
+                <div class="contenedor-imagen">
+                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
                 </div>
-                <div class="contenedor-info">
-                    <h5>Autor del artículo: Admin</h5>
-                    <h5>Anime: TalTalTalTalTalTal</h5>
-                    <h5>Fecha de creación: 07/05/2023</h5>
+                <div class="contenedor-texto">
+                    <div class="contenedor-titulo">
+                        <h2> Todo por un nuevo final feliz contigo a mi lado </h2>
+                    </div>
+                    <div class="contenedor-info">
+                        <h5>Autor del artículo: Admin</h5>
+                        <h5>Tópico: Articulo nice</h5>
+                        <h5>Fecha de creación: 07/05/2023</h5>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="main-cuadrado">
-            <div class="contenedor-imagen">
-                <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
-            </div>
-            <div class="contenedor-texto">
-                <div class="contenedor-titulo">
-                    <h2> La otra versión de ti mismo </h2>
+            <a href="/AnimeTalks/Articulo.php">
+                <div class="contenedor-imagen">
+                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
                 </div>
-                <div class="contenedor-info">
-                    <h5>Autor del artículo: Admin</h5>
-                    <h5>Anime: TalTalTalTalTalTal</h5>
-                    <h5>Fecha de creación: 07/05/2023</h5>
+                <div class="contenedor-texto">
+                    <div class="contenedor-titulo">
+                        <h2> La otra versión de ti mismo </h2>
+                    </div>
+                    <div class="contenedor-info">
+                        <h5>Autor del artículo: Admin</h5>
+                        <h5>Tópico: Articulo nice</h5>
+                        <h5>Fecha de creación: 07/05/2023</h5>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
+
         <div class="main-cuadrado">
-            <div class="contenedor-imagen">
-                <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
-            </div>
-            <div class="contenedor-texto">
-                <div class="contenedor-titulo">
-                    <h2> La otra versión de ti mismo </h2>
+            <a href="/AnimeTalks/Articulo.php">
+                <div class="contenedor-imagen">
+                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
                 </div>
-                <div class="contenedor-info">
-                    <h5>Autor del artículo: Admin</h5>
-                    <h5>Anime: TalTalTalTalTalTal</h5>
-                    <h5>Fecha de creación: 07/05/2023</h5>
+                <div class="contenedor-texto">
+                    <div class="contenedor-titulo">
+                        <h2> La otra versión de ti mismo </h2>
+                    </div>
+                    <div class="contenedor-info">
+                        <h5>Autor del artículo: Admin</h5>
+                        <h5>Tópico: Articulo nice</h5>
+                        <h5>Fecha de creación: 07/05/2023</h5>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
+
         <div class="main-cuadrado">
-            <div class="contenedor-imagen">
-                <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
-            </div>
-            <div class="contenedor-texto">
-                <div class="contenedor-titulo">
-                    <h2> La otra versión de ti mismo </h2>
+            <a href="/AnimeTalks/Articulo.php">
+                <div class="contenedor-imagen">
+                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
                 </div>
-                <div class="contenedor-info">
-                    <h5>Autor del artículo: Admin</h5>
-                    <h5>Anime: TalTalTalTalTalTal</h5>
-                    <h5>Fecha de creación: 07/05/2023</h5>
+                <div class="contenedor-texto">
+                    <div class="contenedor-titulo">
+                        <h2> La otra versión de ti mismo </h2>
+                    </div>
+                    <div class="contenedor-info">
+                        <h5>Autor del artículo: Admin</h5>
+                        <h5>Tópico: Articulo nice</h5>
+                        <h5>Fecha de creación: 07/05/2023</h5>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
+
         <div class="main-cuadrado">
-            <div class="contenedor-imagen">
-                <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
-            </div>
-            <div class="contenedor-texto">
-                <div class="contenedor-titulo">
-                    <h2> La otra versión de ti mismo </h2>
+            <a href="/AnimeTalks/Articulo.php">
+                <div class="contenedor-imagen">
+                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
                 </div>
-                <div class="contenedor-info">
-                    <h5>Autor del artículo: Admin</h5>
-                    <h5>Anime: TalTalTalTalTalTal</h5>
-                    <h5>Fecha de creación: 07/05/2023</h5>
+                <div class="contenedor-texto">
+                    <div class="contenedor-titulo">
+                        <h2> La otra versión de ti mismo </h2>
+                    </div>
+                    <div class="contenedor-info">
+                        <h5>Autor del artículo: Admin</h5>
+                        <h5>Tópico: Articulo nice</h5>
+                        <h5>Fecha de creación: 07/05/2023</h5>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
+
         <div class="main-cuadrado">
-            <div class="contenedor-imagen">
-                <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
-            </div>
-            <div class="contenedor-texto">
-                <div class="contenedor-titulo">
-                    <h2> La otra versión de ti mismo </h2>
+            <a href="/AnimeTalks/Articulo.php">
+                <div class="contenedor-imagen">
+                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
                 </div>
-                <div class="contenedor-info">
-                    <h5>Autor del artículo: Admin</h5>
-                    <h5>Anime: TalTalTalTalTalTal</h5>
-                    <h5>Fecha de creación: 07/05/2023</h5>
+                <div class="contenedor-texto">
+                    <div class="contenedor-titulo">
+                        <h2> La otra versión de ti mismo </h2>
+                    </div>
+                    <div class="contenedor-info">
+                        <h5>Autor del artículo: Admin</h5>
+                        <h5>Tópico: Articulo nice</h5>
+                        <h5>Fecha de creación: 07/05/2023</h5>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
+
         <div class="main-cuadrado">
-            <div class="contenedor-imagen">
-                <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
-            </div>
-            <div class="contenedor-texto">
-                <div class="contenedor-titulo">
-                    <h2> La otra versión de ti mismo </h2>
+            <a href="/AnimeTalks/Articulo.php">
+                <div class="contenedor-imagen">
+                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
                 </div>
-                <div class="contenedor-info">
-                    <h5>Autor del artículo: Admin</h5>
-                    <h5>Anime: TalTalTalTalTalTal</h5>
-                    <h5>Fecha de creación: 07/05/2023</h5>
+                <div class="contenedor-texto">
+                    <div class="contenedor-titulo">
+                        <h2> La otra versión de ti mismo </h2>
+                    </div>
+                    <div class="contenedor-info">
+                        <h5>Autor del artículo: Admin</h5>
+                        <h5>Tópico: Articulo nice</h5>
+                        <h5>Fecha de creación: 07/05/2023</h5>
+                    </div>
                 </div>
-            </div>
+            </a>
+        </div>
+
+        <div class="main-cuadrado">
+            <a href="/AnimeTalks/Articulo.php">
+                <div class="contenedor-imagen">
+                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
+                </div>
+                <div class="contenedor-texto">
+                    <div class="contenedor-titulo">
+                        <h2> La otra versión de ti mismo </h2>
+                    </div>
+                    <div class="contenedor-info">
+                        <h5>Autor del artículo: Admin</h5>
+                        <h5>Tópico: Articulo nice</h5>
+                        <h5>Fecha de creación: 07/05/2023</h5>
+                    </div>
+                </div>
+            </a>
         </div>
     </main>
 
@@ -265,4 +287,5 @@ $id_usuario = $_SESSION['id_del_usuario'];
         </div>
     </footer>
 </body>
+
 </html>

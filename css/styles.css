@@ -5,18 +5,16 @@ html {
   height: 100%;
 }
 
-
-
 body {
-  background-color: #CAF0F8;
+  background-color: #caf0f8;
   font-size: 18px;
   overflow: auto;
   font-family: "Prompt-Medium";
   min-height: 100%;
 }
-a{
+a {
   text-decoration: none;
-  color: black; 
+  color: black;
 }
 
 .links {
@@ -113,7 +111,7 @@ a{
   font-size: 18px;
 }
 
-#btn-menu:checked~.container-menu {
+#btn-menu:checked ~ .container-menu {
   opacity: 1;
   visibility: visible;
 }
@@ -128,7 +126,7 @@ a{
   transform: translateX(-100%);
 }
 
-#btn-menu:checked~.container-menu .cont-menu {
+#btn-menu:checked ~ .container-menu .cont-menu {
   transform: translateX(0%);
 }
 
@@ -170,12 +168,11 @@ a{
   padding: 2rem;
   float: left;
   min-height: 100%;
-
 }
 
 .contenedor-cuadrado img {
-  padding-top: 2rem;
-
+  margin-top: 2rem;
+  border-radius: 10px;
 }
 
 /* Contenido principal de la pagina */
@@ -202,28 +199,35 @@ a{
   margin-top: 4rem;
   margin-right: 6rem;
   border-radius: 20px;
+  width: 55rem;
 }
 
 .contenedor-imagen {
   bottom: 25px;
   left: 0;
   right: 0;
-  top: 0
+  top: 0;
+}
+.contenedor-imagen img {
+  border-radius: 5px;
+  width: 550px;
+  height: 355px;
 }
 
 .contenedor-titulo {
   display: flex;
   border-bottom: 4px solid black;
   justify-content: center;
-  font-family: 'Prompt-Bold';
-  
+  font-family: "Prompt-Bold";
 }
-.contenedor-titulo a{
+
+.contenedor-titulo a {
   text-decoration: none;
 }
 
 .contenedor-titulo h2 {
   margin: 1.5rem 0;
+  text-align: center;
 }
 
 .contenedor-info {
@@ -234,8 +238,6 @@ a{
 .contenedor-info h5 {
   margin: 2.5rem 0 0 0;
 }
-
-
 
 /* Inicio del footer */
 
@@ -248,11 +250,9 @@ footer a {
   height: 100%;
   margin: 10rem 0;
   color: white;
-
 }
 
 .footer-main {
-
   display: grid;
   grid-column-gap: 80px;
   grid-template-columns: repeat(4, 1fr);
@@ -273,7 +273,6 @@ footer {
   font-size: 15px;
   flex-shrink: 0;
   bottom: 0;
-
 }
 
 /* La verdad no sé para qué dejé este logo img. Si funciona no lo toques */
