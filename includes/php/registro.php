@@ -8,7 +8,7 @@
         } else {
             $usuario = $_POST["usuario"]; 
             $correo = $_POST["correo"]; 
-            $pass = sha1($_POST["password"]); 
+            $pass = $_POST["password"]; 
             $sql = $conn->query("INSERT INTO usuarios (usuario, correo, pass) VALUES ('$usuario', '$correo', '$pass');");
             if($sql == 1){
                 echo "! Usuario registrado !";
