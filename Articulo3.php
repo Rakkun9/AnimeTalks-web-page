@@ -79,9 +79,9 @@ $id_usuario = $_SESSION['id_del_usuario'];
 
     <article class="main-articulo">
         <div class="imagen-articulo">
-            <img src="/AnimeTalks/img/imgArticulos/suzume.png" alt="Imagen del titulo">
+            <img src="/AnimeTalks/img/imgArticulos/OnePiece-titulo.png" alt="Imagen del titulo">
             <div class="titulo-articulo">
-                <h1> La inspiración de Makoto Shinkai detrás de Suzume y Miyazaki</h1>
+                <h1> !Los tambores de la liberación están cerca Joy boy está de vuelta! </h1>
             </div>
             <div class="titulo-articulo">
                 <!-- No tocar esto porque le da por explotar -->

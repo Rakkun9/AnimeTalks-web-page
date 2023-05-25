@@ -110,138 +110,138 @@ $id_usuario = $_SESSION['id_del_usuario'];
                 </div>
                 <div class="contenedor-texto">
                     <div class="contenedor-titulo">
-                        <h2> Todo por un nuevo final feliz contigo a mi lado </h2>
+                        <h2> La inspiración de Makoto Shinkai detrás de Suzume y Miyazaki </h2>
                     </div>
                     <div class="contenedor-info">
                         <h5>Autor del artículo: Admin</h5>
                         <h5>Tópico: Articulo nice</h5>
-                        <h5>Fecha de creación: 07/05/2023</h5>
+                        <h5>Fecha de creación: 24/05/2023</h5>
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo.php">
+            <a href="/AnimeTalks/Articulo2.php">
                 <div class="contenedor-imagen">
-                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
+                    <img src="/AnimeTalks/img/imgArticulos/bocchi-caratula.png" alt="anime">
                 </div>
                 <div class="contenedor-texto">
                     <div class="contenedor-titulo">
-                        <h2> La otra versión de ti mismo </h2>
+                        <h2> El anime sorpresa que rompió en premios del 2022 </h2>
                     </div>
                     <div class="contenedor-info">
                         <h5>Autor del artículo: Admin</h5>
                         <h5>Tópico: Articulo nice</h5>
-                        <h5>Fecha de creación: 07/05/2023</h5>
+                        <h5>Fecha de creación: 24/05/2023</h5>
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo.php">
+            <a href="/AnimeTalks/Articulo3.php">
                 <div class="contenedor-imagen">
-                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
+                    <img src="/AnimeTalks/img/imgArticulos/OnePiece-caratula.png" alt="anime">
                 </div>
                 <div class="contenedor-texto">
                     <div class="contenedor-titulo">
-                        <h2> La otra versión de ti mismo </h2>
+                        <h2> Los tambores de la liberación están cerca !Joy boy está de vuelta! </h2>
                     </div>
                     <div class="contenedor-info">
                         <h5>Autor del artículo: Admin</h5>
                         <h5>Tópico: Articulo nice</h5>
-                        <h5>Fecha de creación: 07/05/2023</h5>
+                        <h5>Fecha de creación: 24/05/2023</h5>
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo.php">
+            <a href="/AnimeTalks/Articulo4.php">
                 <div class="contenedor-imagen">
-                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
+                    <img src="/AnimeTalks/img/imgArticulos/OshiNoko-caratula.png" alt="anime">
                 </div>
                 <div class="contenedor-texto">
                     <div class="contenedor-titulo">
-                        <h2> La otra versión de ti mismo </h2>
+                        <h2> ¿Una industria llena de mentiras? La otra cara de la moneda </h2>
                     </div>
                     <div class="contenedor-info">
                         <h5>Autor del artículo: Admin</h5>
                         <h5>Tópico: Articulo nice</h5>
-                        <h5>Fecha de creación: 07/05/2023</h5>
+                        <h5>Fecha de creación: 24/05/2023</h5>
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo.php">
+            <a href="/AnimeTalks/Articulo5.php">
                 <div class="contenedor-imagen">
-                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
+                    <img src="/AnimeTalks/img/imgArticulos/reZero-caratula.png" alt="anime">
                 </div>
                 <div class="contenedor-texto">
                     <div class="contenedor-titulo">
-                        <h2> La otra versión de ti mismo </h2>
+                        <h2> ¿Cuándo saldrá la tercera temporada de Re:Zero?  </h2>
                     </div>
                     <div class="contenedor-info">
                         <h5>Autor del artículo: Admin</h5>
                         <h5>Tópico: Articulo nice</h5>
-                        <h5>Fecha de creación: 07/05/2023</h5>
+                        <h5>Fecha de creación: 24/05/2023</h5>
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo.php">
+            <a href="/AnimeTalks/Articulo6.php">
                 <div class="contenedor-imagen">
-                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
+                    <img src="/AnimeTalks/img/imgArticulos/Akame-caratula.png" alt="anime">
                 </div>
                 <div class="contenedor-texto">
                     <div class="contenedor-titulo">
-                        <h2> La otra versión de ti mismo </h2>
+                        <h2> ¿Es mejor el manga o el anime? Akame ga kill en acción </h2>
                     </div>
                     <div class="contenedor-info">
                         <h5>Autor del artículo: Admin</h5>
                         <h5>Tópico: Articulo nice</h5>
-                        <h5>Fecha de creación: 07/05/2023</h5>
+                        <h5>Fecha de creación: 24/05/2023</h5>
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo.php">
+            <a href="/AnimeTalks/Articulo7.php">
                 <div class="contenedor-imagen">
-                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
+                    <img src="/AnimeTalks/img/imgArticulos/Chainsaw-caratula.png" alt="anime">
                 </div>
                 <div class="contenedor-texto">
                     <div class="contenedor-titulo">
-                        <h2> La otra versión de ti mismo </h2>
+                        <h2> ¿Chinsaw-man fue la decepción del 2022? </h2>
                     </div>
                     <div class="contenedor-info">
                         <h5>Autor del artículo: Admin</h5>
                         <h5>Tópico: Articulo nice</h5>
-                        <h5>Fecha de creación: 07/05/2023</h5>
+                        <h5>Fecha de creación: 24/05/2023</h5>
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo.php">
+            <a href="/AnimeTalks/Articulo8.php">
                 <div class="contenedor-imagen">
-                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
+                    <img src="/AnimeTalks/img/imgArticulos/horimiya-caratula.png" alt="anime">
                 </div>
                 <div class="contenedor-texto">
                     <div class="contenedor-titulo">
-                        <h2> La otra versión de ti mismo </h2>
+                        <h2> ¿Por qué es tan odiada Hori-san? </h2>
                     </div>
                     <div class="contenedor-info">
                         <h5>Autor del artículo: Admin</h5>
                         <h5>Tópico: Articulo nice</h5>
-                        <h5>Fecha de creación: 07/05/2023</h5>
+                        <h5>Fecha de creación: 24/05/2023</h5>
                     </div>
                 </div>
             </a>

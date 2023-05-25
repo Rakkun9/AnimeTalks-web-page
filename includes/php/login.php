@@ -7,6 +7,9 @@ session_start();
 include "../funciones/bd_conexion.php";
 include "../../LogIn.php";
 
+$phpUsuario; 
+$usuarioos = new stdClass(); 
+$usuarioos->phpUsuario = "Hola todo el mundo este es el baile del troleo"; 
 // Se hace verificacion de que cuando se le de al boton haga esto
 
 if (!empty($_POST["registro"])) {
