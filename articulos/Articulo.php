@@ -28,9 +28,10 @@ $id_usuario = $_SESSION['id_del_usuario'];
                 <label for="btn-menu" class="icon-menu"></label>
             </div>
             <div class="logo">
-
+                <!-- No sé cual es la exitencia de esto pero toca revisar después -->
             </div>
             <nav class="menu">
+                <!-- Esto es para hacer el cambio de pestañas en el header -->
                 <a href="#">Inicio</a>
                 <a href="#">Categorias</a>
                 <a href="#">Galería</a>

@@ -101,18 +101,21 @@ $id_usuario = $_SESSION['id_del_usuario'];
         </div>
 
     </div>
-
+    <!-- Este es el contenido principal de la página -->
     <main class="main-contenedor">
         <div class="main-cuadrado">
             <a href="/AnimeTalks/articulos/Articulo.php">
                 <div class="contenedor-imagen">
-                    <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
+                    <img src="/AnimeTalks/img/imgArticulos/suzume-caratula.png" alt="anime">
+                    <!-- En caso de que algo falle la culpa es de esto -->
                 </div>
                 <div class="contenedor-texto">
                     <div class="contenedor-titulo">
+                        <!-- El titulo principal de página -->
                         <h2> La inspiración de Makoto Shinkai detrás de Suzume y Miyazaki </h2>
                     </div>
                     <div class="contenedor-info">
+                        <!-- Contenido que va debajo del titulo -->
                         <h5>Autor del artículo: Admin</h5>
                         <h5>Tópico: Articulo nice</h5>
                         <h5>Fecha de creación: 24/05/2023</h5>
