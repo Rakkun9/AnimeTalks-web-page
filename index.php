@@ -104,7 +104,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
 
     <main class="main-contenedor">
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo.php">
+            <a href="/AnimeTalks/articulos/Articulo.php">
                 <div class="contenedor-imagen">
                     <img src="/AnimeTalks/img/imgIndex/Prueba2.png" alt="anime">
                 </div>
@@ -122,7 +122,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo2.php">
+            <a href="/AnimeTalks/articulos/Articulo2.php">
                 <div class="contenedor-imagen">
                     <img src="/AnimeTalks/img/imgArticulos/bocchi-caratula.png" alt="anime">
                 </div>
@@ -140,7 +140,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo3.php">
+            <a href="/AnimeTalks/articulos/Articulo3.php">
                 <div class="contenedor-imagen">
                     <img src="/AnimeTalks/img/imgArticulos/OnePiece-caratula.png" alt="anime">
                 </div>
@@ -158,7 +158,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo4.php">
+            <a href="/AnimeTalks/articulos/Articulo4.php">
                 <div class="contenedor-imagen">
                     <img src="/AnimeTalks/img/imgArticulos/OshiNoko-caratula.png" alt="anime">
                 </div>
@@ -176,7 +176,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo5.php">
+            <a href="/AnimeTalks/articulos/Articulo5.php">
                 <div class="contenedor-imagen">
                     <img src="/AnimeTalks/img/imgArticulos/reZero-caratula.png" alt="anime">
                 </div>
@@ -194,7 +194,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo6.php">
+            <a href="/AnimeTalks/articulos/Articulo6.php">
                 <div class="contenedor-imagen">
                     <img src="/AnimeTalks/img/imgArticulos/Akame-caratula.png" alt="anime">
                 </div>
@@ -212,7 +212,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo7.php">
+            <a href="/AnimeTalks/articulos/Articulo7.php">
                 <div class="contenedor-imagen">
                     <img src="/AnimeTalks/img/imgArticulos/Chainsaw-caratula.png" alt="anime">
                 </div>
@@ -230,7 +230,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
         </div>
 
         <div class="main-cuadrado">
-            <a href="/AnimeTalks/Articulo8.php">
+            <a href="/AnimeTalks/articulos/Articulo8.php">
                 <div class="contenedor-imagen">
                     <img src="/AnimeTalks/img/imgArticulos/horimiya-caratula.png" alt="anime">
                 </div>
