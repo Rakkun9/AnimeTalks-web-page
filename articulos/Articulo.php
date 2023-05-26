@@ -1,8 +1,14 @@
 <?php
-session_start();
 
 // Estableces la variable global
 $id_usuario = $_SESSION['id_del_usuario'];
+
+if (assert($id_usuario = $_SESSION['id_del_usuario'])){
+    session_start();
+}
+
+
+
 ?>
 
 
