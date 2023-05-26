@@ -22,7 +22,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
 
 <body>
     <header class="header">
-        <img src="img/AnimeTalksRecortado.png" alt="AnimeTalks" class="imagen-logo">
+        <img src="../img/AnimeTalksRecortado.png" alt="AnimeTalks" class="imagen-logo">
         <div class="container">
             <div class="btn-menu">
                 <label for="btn-menu" class="icon-menu"></label>

@@ -22,7 +22,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
 
 <body>
     <header class="header">
-        <img src="img/AnimeTalksRecortado.png" alt="AnimeTalks" class="imagen-logo">
+        <img src="../img/AnimeTalksRecortado.png" alt="AnimeTalks" class="imagen-logo">
         <div class="container">
             <div class="btn-menu">
                 <label for="btn-menu" class="icon-menu"></label>
@@ -80,7 +80,7 @@ $id_usuario = $_SESSION['id_del_usuario'];
 
     <article class="main-articulo">
         <div class="imagen-articulo">
-            <img src="/AnimeTalks/img/imgArticulos/suzume.png" alt="Imagen del titulo">
+            <img src="/AnimeTalks/img/imgArticulos/suzume-titulo.png" alt="Imagen del titulo">
             <div class="titulo-articulo">
                 <h1> La inspiración de Makoto Shinkai detrás de Suzume y Miyazaki</h1>
             </div>
